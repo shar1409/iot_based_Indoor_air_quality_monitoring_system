@@ -1,0 +1,29 @@
+# Arduino build artifacts
+*.o
+*.elf
+*.hex
+*.bin
+*.uf2
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# IDE-specific
+.pio/
+.vscode/
+.idea/
+*.iml
+
+# Secrets and credentials
+secrets.h
+config.h
+*.pem
+*.key
+*.crt
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
